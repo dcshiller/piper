@@ -8,13 +8,13 @@ I plan to primarily use basic JavaScript with jQuery. There are two main steps t
 
 No backend needed.
 
-#Wireframes
+##Wireframes
 
 ![wireframes]
 
-[wireframes](/docs/piperframes.png)
+[wireframes]: ./docs/piperframes.png
 
-#Timeline
+##Timeline
 
 Day 1: Basic pipe pieces, manipulation.
 
