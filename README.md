@@ -12,7 +12,7 @@ No backend needed.
 
 ![wireframes]
 
-[wireframes][/docs/piperframes.png]
+[wireframes](/docs/piperframes.png)
 
 #Timeline
 
