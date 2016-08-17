@@ -1,0 +1,28 @@
+
+
+h1 {
+  text-align: center;
+}
+
+
+#canvasFrame {
+  position: relative;
+  height: 400px;
+  margin: auto;
+  width: 800px;
+}
+
+#boardCanvas {
+  border: 1px solid black;
+  display: block;
+  margin: auto;
+}
+
+.spaceCanvas {
+  z-index: 1000;
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  top: 0px;
+  left: 0px;
+}
