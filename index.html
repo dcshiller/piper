@@ -8,9 +8,36 @@
     <script src="./lib/bundle.js"> </script>
   </head>
   <body>
-    <h1> Piper </h1>
+    <h1 id="gameTitle"> Piper </h1>
     <div id="canvasFrame">
       <canvas id="boardCanvas" width="800px" height="400px"> </canvas>
+      <h2> Score: <span id="score">-</span> </h2>
     </div>
+
+    <nav id="menu" class="modalPanel">
+      <h2> Menu </h2>
+
+      <ul>
+        <li id="newGame">New Game</li>
+        <li id="gameMode">Change Game Mode</li>
+        <li id="instructions">Instructions</li>
+      </ul>
+
+    </nav>
+
+    <div id="instructionsPanel" class="modalPanel hidden">
+      <h2> Rules of Play </h2>
+        <p> Piper is a puzzle game inspired by Pipe Dream.
+          The goal of the game is to stave off the inevitable as long as possible by connecting pipes.</p>
+
+          <p>
+          Any pipe may be rotated by clicking on it and dragging the mouse.
+          Additionally, any pipe adjacent to the empty space may be swapped for the empty space.
+        </p>
+
+
+    </div>
+
+
   </body>
 </html>
