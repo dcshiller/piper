@@ -1,6 +1,7 @@
 
 
-h1 {
+h1, h2, h3, h4 {
+  font-family: 'Exo 2', sans-serif;
   text-align: center;
 }
 
@@ -35,10 +36,29 @@ h1 {
   width: 300px;
   border: 3px solid black;
   height: 300px;
-  top: 10%;
-  left: calc(50% - 150px);
+  top: 100px;
+  left: calc(50% - 170px);
   padding: 20px;
+  overflow: auto;
 }
+
+.modalPanel::-webkit-scrollbar {
+  width: 12px;
+  	background-color: #F5F5F5;
+  }
+
+  .modalPanel::-webkit-scrollbar-thumb
+  {
+	border-radius: 10px;
+	background-color: black;
+}
+
+.modalPanel hr {
+  width: 50%;
+  border-top: 2px solid black;
+  margin-bottom: 30px;
+}
+
 /*
 #menu.left {
   left: calc(50% - 800px);
@@ -58,4 +78,41 @@ h1 {
 
 .hidden {
   display:none;
+}
+
+img {
+  border: 2px solid black;
+}
+
+.fullWidth {
+  width: 100%;
+}
+
+.right {
+  float: right;
+}
+
+span.selected {
+  text-decoration: underline;
+}
+
+form {
+  padding: 30px;
+}
+
+form label {
+  display: block;
+  margin: auto;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+form > input {
+  display: block;
+  margin: auto;
+
+}
+
+input#initials {
+  width: 30px;
 }
