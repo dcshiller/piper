@@ -6,12 +6,25 @@ h1, h2, h3, h4 {
 }
 
 
+#gameTitle {
+  width: 200px;
+  margin: auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  cursor: pointer;
+}
+
+
 #canvasFrame {
   position: relative;
   height: 400px;
   margin: auto;
   width: 800px;
 }
+#countdown {
+  position: absolute;
+  top: -40px;
+;}
 
 #boardCanvas {
   border: 1px solid black;
@@ -26,6 +39,7 @@ h1, h2, h3, h4 {
   width: 51px;
   top: 0px;
   left: 0px;
+  transition: top .05s, left .05s;
 }
 
 
@@ -36,7 +50,7 @@ h1, h2, h3, h4 {
   width: 300px;
   border: 3px solid black;
   height: 300px;
-  top: 100px;
+  top: 140px;
   left: calc(50% - 170px);
   padding: 20px;
   overflow: auto;
@@ -44,10 +58,10 @@ h1, h2, h3, h4 {
 
 .modalPanel::-webkit-scrollbar {
   width: 12px;
-  	background-color: #F5F5F5;
-  }
+	background-color: #F5F5F5;
+}
 
-  .modalPanel::-webkit-scrollbar-thumb
+.modalPanel::-webkit-scrollbar-thumb
   {
 	border-radius: 10px;
 	background-color: black;
@@ -59,6 +73,9 @@ h1, h2, h3, h4 {
   margin-bottom: 30px;
 }
 
+.modalPanel li {
+  cursor: pointer;
+}
 /*
 #menu.left {
   left: calc(50% - 800px);
@@ -85,7 +102,10 @@ img {
 }
 
 .fullWidth {
-  width: 100%;
+  max-width: 100%;
+  max-height: 75px;
+  display: block;
+  margin: auto;
 }
 
 .right {

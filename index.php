@@ -11,6 +11,7 @@
   <body>
     <h1 id="gameTitle"> Piper </h1>
     <div id="canvasFrame">
+      <h3 id="countdown"> </h3>
       <canvas id="boardCanvas" width="800px" height="400px"> </canvas>
       <h2> Score: <span id="score">-</span> </h2>
     </div>
@@ -28,10 +29,10 @@
     </nav>
 
     <div id="instructionsPanel" class="modalPanel hidden">
-      <h2> Rules of Play </h2>
+      <h2> Guide to Play </h2>
       <hr/>
         <p> Piper is a puzzle game inspired by Pipe Dream.
-          The goal of the game is to the lefthand entry pipe to the righthand exit pipe by rotating and moving
+          The goal of the game is to connect the lefthand entry pipe to the righthand exit pipe by rotating and moving
           the intermediary pipes.</p>
           <img src="assets/goals.png" class="right" alt="entryAndExitPipes" />
 
@@ -45,8 +46,15 @@
           <p>
           Alternatively, any piece may be rotated clockwise 90 degrees with a single click. </p>
 
-          <p>_
-          Additionally, any pipe adjacent to the empty space may be swapped for the empty space with a doubleclick.
+          <img src="assets/emptyclick.png" class="fullWidth" alt="" />
+          <p>
+          Additionally, any pipe adjacent to the empty space may be swapped for the empty space with a click. This takes precedence over rotations. Rotations next to the empty space require clicking and dragging.
+
+
+          <p>  <img src="assets/barriers.png"  class="right" alt="" ;/> When in puzzle mode, the sludge will move slower down, so you will have more time to plan your moves. However, you will also have to contend with barriers.
+             Barriers cannot be moved, and if the sludge ever meets a barrier, you will lose.</p>
+
+          Presently, high scores are not recorded for puzzle mode.
         </p>
     </div>
 
@@ -74,6 +82,25 @@
           }
         echo  "] </script>";
       ?>
+    </div>
+
+    <div id="winPanel" class="modalPanel hidden">
+        <h2>You won!</h2>
+
+        <p>
+          Nice Job.
+        </p>
+        <p>
+          Your score was: <span id="scoreReport"> </span>
+        </p>
+    </div>
+
+    <div id="lostPanel" class="modalPanel hidden">
+        <h2>You Lost!</h2>
+
+        <p>
+          You were <span id="distanceReport"> </span> spaces away from the end!
+        </p>
     </div>
 
     <div id="newHighScorePanel" class="modalPanel hidden">
