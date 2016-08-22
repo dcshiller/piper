@@ -22,8 +22,8 @@ h1, h2, h3, h4 {
 .spaceCanvas {
   z-index: 2;
   position: absolute;
-  height: 50px;
-  width: 50px;
+  height: 51px;
+  width: 51px;
   top: 0px;
   left: 0px;
 }
