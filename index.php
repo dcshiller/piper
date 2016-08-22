@@ -61,7 +61,7 @@
         $high_scores = [];
         for ($i = 2; $i <= 6; $i++){
           array_push($high_scores, $lines[$i]);
-          echo "<li>". $lines[$i]. "</li>";
+          echo "<li class=\"highscore\">". $lines[$i]. "</li>";
         }
 
         echo "<script type=\"text/javascript\"> window.highScores = [";
