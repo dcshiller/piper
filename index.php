@@ -60,9 +60,7 @@
 
     <div id="highScoresPanel" class="modalPanel hidden">
       <h2> High Scores </h2>
-
       <hr/>
-
       <?php
         $file = "assets/highscores.txt";
         $lines = file( $file );
@@ -71,7 +69,6 @@
           array_push($high_scores, $lines[$i]);
           echo "<li class=\"highscore\">". $lines[$i]. "</li>";
         }
-
         echo "<script type=\"text/javascript\"> window.highScores = [";
         for ($i = 0; $i < 5; $i++)
           {
@@ -86,7 +83,7 @@
 
     <div id="winPanel" class="modalPanel hidden">
         <h2>You won!</h2>
-
+        <br/><br/>
         <p>
           Nice Job.
         </p>
@@ -97,9 +94,8 @@
 
     <div id="lossPanel" class="modalPanel hidden">
         <h2>You Lost!</h2>
-
         <hr/>
-         
+        <br/><br/>
         <p>
           You were <span id="distanceReport"> </span> spaces away from the end!
         </p>
