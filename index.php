@@ -17,7 +17,7 @@
     </div>
 
     <nav id="menu" class="modalPanel">
-      <h2> Menu </h2>
+      <h2 class="clickable"> Menu </h2>
       <hr/>
       <ul>
         <li id="newGame">New Game</li>
@@ -95,9 +95,11 @@
         </p>
     </div>
 
-    <div id="lostPanel" class="modalPanel hidden">
+    <div id="lossPanel" class="modalPanel hidden">
         <h2>You Lost!</h2>
 
+        <hr/>
+         
         <p>
           You were <span id="distanceReport"> </span> spaces away from the end!
         </p>
