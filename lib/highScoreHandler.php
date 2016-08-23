@@ -1,4 +1,3 @@
-
 <?php
   ini_set('display_errors', 'On');
   error_reporting(E_ALL | E_STRICT);
@@ -32,7 +31,6 @@
   $highScores = fopen("../assets/highscores.txt", "w") or die("Unable to open file!");
   fwrite($highScores, "High Scores\n");
   fwrite($highScores, "-----------\n");
-
   for ($i = 0; $i < 5; $i++)
   {
     fwrite($highScores, $lines[$i]);
