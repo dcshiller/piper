@@ -20,6 +20,7 @@ h1, h2, h3, h4 {
   height: 400px;
   margin: auto;
   width: 800px;
+  box-shadow: 4px 2px 4px rgba(0,0,0,.2);
 }
 #countdown {
   position: absolute;
@@ -65,6 +66,14 @@ h1, h2, h3, h4 {
   {
 	border-radius: 10px;
 	background-color: black;
+}
+
+.modalPanel p:first-of-type {
+  margin-top: 30px;
+}
+
+.clickable {
+  cursor: pointer;+
 }
 
 .modalPanel hr {
