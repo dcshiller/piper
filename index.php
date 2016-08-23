@@ -46,10 +46,14 @@
           <p>
           Alternatively, any piece may be rotated clockwise 90 degrees with a single click. </p>
 
+          <p>
+          Additionally, any pipe adjacent to the empty space may be swapped for the empty space with a click.
+          This takes precedence over rotations. Rotations next to the empty space require clicking and dragging.
+          </p>
           <img src="assets/emptyclick.png" class="fullWidth" alt="" />
           <p>
-          Additionally, any pipe adjacent to the empty space may be swapped for the empty space with a click. This takes precedence over rotations. Rotations next to the empty space require clicking and dragging.
-
+          Note well, proper use of the empty space is integral to getting a high score in this game.
+          You cannot cross over any pipe that has already been filled with sludge. If your empty space gets stuck somewhere, your game may become impossible to win.
 
           <p>  <img src="assets/barriers.png"  class="right" alt="" ;/> When in puzzle mode, the sludge will move slower down, so you will have more time to plan your moves. However, you will also have to contend with barriers.
              Barriers cannot be moved, and if the sludge ever meets a barrier, you will lose.</p>
@@ -81,7 +85,7 @@
       ?>
     </div>
 
-    <div id="winPanel" class="modalPanel hidden">
+    <div id="winPanel" class="modalPanel winloss hidden">
         <h2>You won!</h2>
         <br/><br/>
         <p>
@@ -92,7 +96,7 @@
         </p>
     </div>
 
-    <div id="lossPanel" class="modalPanel hidden">
+    <div id="lossPanel" class="modalPanel winloss hidden">
         <h2>You Lost!</h2>
         <hr/>
         <br/><br/>
