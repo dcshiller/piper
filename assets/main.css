@@ -1,9 +1,21 @@
 
+* {
+  font-size: 18px;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+h2 {
+  font-size: 25px;
+}
 
 h1, h2, h3, h4 {
   font-family: 'Exo 2', sans-serif;
   text-align: center;
 }
+
 
 
 #gameTitle {
@@ -20,7 +32,7 @@ margin-bottom: 30px;
   display: block;
   text-align: center;
   margin: auto;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 #canvasFrame {
@@ -107,11 +119,11 @@ margin-bottom: 30px;
   text-align: center;
   list-style: none;
   padding: 0px;
-  margin-bottom: 20px;
+  margin-bottom: 16px;
 }
 
 .modalPanel li {
-  font-size: 15px;
+  font-size: 18px;
 }
 
 .hidden {
@@ -156,4 +168,29 @@ form > input {
 
 input#initials {
   width: 30px;
+}
+
+footer {
+  position: fixed;
+  left: calc(50% - 100px);
+  bottom: 0px;
+  margin: auto;
+  width: 200px;
+  display: block;
+  margin-bottom: 20px;
+}
+
+footer div {
+  display: block;
+  /*width: 100px;*/
+  text-align: center;
+  margin: auto;
+}
+
+footer div * {
+  margin: auto;
+  margin-left: 10px;
+  color: black;
+  text-decoration: none;
+  text-align: center;
 }
