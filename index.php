@@ -3,6 +3,8 @@
   <head>
     <meta charset="utf-8">
     <title>Piper</title>
+<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+    <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon" />
     <link href="https://fonts.googleapis.com/css?family=Exo+2" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
     <link rel="stylesheet" href="./assets/main.css" media="screen" title="no title" charset="utf-8">
@@ -60,7 +62,6 @@
           <p>  <img src="assets/barriers.png"  class="right" alt="" ;/> When in puzzle mode, the sludge will move slower, so you will have more time to plan your moves. However, you will also have to contend with barriers.
              Barriers cannot be moved, and if the sludge ever meets a barrier, you will lose.</p>
 
-          Presently, high scores are not recorded for puzzle mode.
         </p>
     </div>
 
@@ -124,5 +125,12 @@
     </div>
 
 
+<footer>
+  <div>
+    <a href= "http://www.derekshiller.com"> Derek Shiller </a>
+    <a href="http://www.github.com/dcshiller/piper" class="icon fa-github"></a>
+    <a href="http://www.linkedin.com/in/derek-shiller-3a254b121" class="icon fa-linkedin"></a>
+  </div>
+</footer>
   </body>
 </html>
