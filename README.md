@@ -1,4 +1,7 @@
-# Piper
+# [Piper](http://www.derekshiller.com/piper/piper.php)
+*A puzzle game inspired by Microsoft's Pipe Dream* <br/>
+Hosted at [http://www.derekshiller.com/piper/piper.php](http://www.derekshiller.com/piper/piper.php)
+
 
 Piper is a puzzle game inspired by Pipe Dream. The player must connect an entry pipe to an exit pipe through manipulating intermediary pipes. Piper differs from its inspiration in that all pipes pieces are present on the screen at the start of the game, and must be rotated and shifted rather than freely placed.
 

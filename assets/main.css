@@ -7,13 +7,21 @@ h1, h2, h3, h4 {
 
 
 #gameTitle {
-  width: 200px;
+display: block;
   margin: auto;
   margin-top: 40px;
-  margin-bottom: 40px;
   cursor: pointer;
+height: 40px;
+margin-bottom: 30px;
 }
 
+#menuIndicator {
+  color: grey;
+  display: block;
+  text-align: center;
+  margin: auto;
+  font-size: 14px;
+}
 
 #canvasFrame {
   position: relative;

@@ -9,7 +9,9 @@
     <script src="./lib/bundle.js"> </script>
   </head>
   <body>
-    <h1 id="gameTitle"> Piper </h1>
+    <h1 id="gameTitle"> Piper
+      <span id="menuIndicator"> (menu) </span>
+    </h1>
     <div id="canvasFrame">
       <h3 id="countdown"> </h3>
       <canvas id="boardCanvas" width="800px" height="400px"> </canvas>
@@ -55,7 +57,7 @@
           Note well, proper use of the empty space is integral to getting a high score in this game.
           You cannot cross over any pipe that has already been filled with sludge. If your empty space gets stuck somewhere, your game may become impossible to win.
 
-          <p>  <img src="assets/barriers.png"  class="right" alt="" ;/> When in puzzle mode, the sludge will move slower down, so you will have more time to plan your moves. However, you will also have to contend with barriers.
+          <p>  <img src="assets/barriers.png"  class="right" alt="" ;/> When in puzzle mode, the sludge will move slower, so you will have more time to plan your moves. However, you will also have to contend with barriers.
              Barriers cannot be moved, and if the sludge ever meets a barrier, you will lose.</p>
 
           Presently, high scores are not recorded for puzzle mode.
@@ -101,7 +103,7 @@
         <hr/>
         <br/><br/>
         <p>
-          You were <span id="distanceReport"> </span> spaces away from the end!
+          You were <span id="distanceReport"> </span> spaces away from the end.
         </p>
     </div>
 
