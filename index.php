@@ -40,7 +40,7 @@
           the intermediary pipes.</p>
           <img src="assets/goals.png" class="right" alt="entryAndExitPipes" />
 
-          <p>  There is a time limit. After a set amount of time (depending upon the option settings) green sludge will begin to be pumped through the entry pipe.
+          <p>  There is a time limit. After a set amount of time (depending upon the game mode) green sludge will begin to be pumped through the entry pipe.
           If at any point there is no pipe in front of it, you lose! </p>
 
           <p>
