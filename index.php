@@ -26,7 +26,11 @@
       <hr/>
       <ul>
         <li class="newGame">New Game</li>
-        <li id="gameMode"><span id="arcadeMode" class="selected">Arcade Mode</span>    <span id="puzzleMode">Puzzle Mode</span> </li>
+        <li id="gameMode">
+          <span id="arcadeMode" class="selected">Arcade Mode</span>
+          <span id="puzzleMode">Puzzle Mode</span> <br/>
+          <!-- <span id="challengeMode">Challenge Mode</span> -->
+        </li>
         <li id="instructions">Instructions</li>
         <li id="highScores">High Scores</li>
       </ul>
@@ -108,7 +112,6 @@
         <br/>
         <p>
           You were <span id="distanceReport"> </span> spaces away from the end. <br/> <br/>
-
         </p>
         <p>
         <span class="newGame clickable"> Try Again </span>
@@ -117,9 +120,7 @@
 
     <div id="newHighScorePanel" class="modalPanel hidden">
       <h2> You got a high score! </h2>
-
       <hr/>
-
       <form>
         <label> Your Initials:
           <input id="initials" type="text" name="initials" maxlength="3" value="" placeholder = "XYZ">
