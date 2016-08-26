@@ -1,4 +1,5 @@
 
+
 * {
   font-size: 18px;
 }
@@ -168,7 +169,7 @@ form > input {
 }
 
 input#initials {
-  width: 30px;
+  width: 40px;
 }
 
 footer {
@@ -179,19 +180,25 @@ footer {
   width: 200px;
   display: block;
   margin-bottom: 20px;
+  z-index: -1;
 }
 
-footer div {
-  display: block;
+footer span {
+  /*display: /block;*/
   /*width: 100px;*/
   text-align: center;
   margin: auto;
 }
 
-footer div * {
+footer span * {
   margin: auto;
   margin-left: 10px;
   color: black;
   text-decoration: none;
   text-align: center;
+}
+
+footer span img {
+  border: none;
+  margin-bottom: -2px;
 }

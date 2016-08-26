@@ -3,7 +3,8 @@
   <head>
     <meta charset="utf-8">
     <title>Piper</title>
-<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+    <!-- <link href="//netdna.bootstrapcdn.com/font-awesome/3.1.1/css/font-awesome.css" rel="stylesheet"> -->
+<!-- <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css"> -->
     <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon" />
     <link href="https://fonts.googleapis.com/css?family=Exo+2" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
@@ -24,7 +25,7 @@
       <h2 class="clickable"> Menu </h2>
       <hr/>
       <ul>
-        <li id="newGame">New Game</li>
+        <li class="newGame">New Game</li>
         <li id="gameMode"><span id="arcadeMode" class="selected">Arcade Mode</span>    <span id="puzzleMode">Puzzle Mode</span> </li>
         <li id="instructions">Instructions</li>
         <li id="highScores">High Scores</li>
@@ -95,16 +96,22 @@
           Nice Job.
         </p>
         <p>
-          Your score was: <span id="scoreReport"> </span>
+          Your score was: <span id="scoreReport"> </span> <br/>
+           <br/>
+          <span class = "newGame clickable"> Play Again </span>
         </p>
     </div>
 
     <div id="lossPanel" class="modalPanel winloss hidden">
         <h2>You Lost!</h2>
         <hr/>
-        <br/><br/>
+        <br/>
         <p>
-          You were <span id="distanceReport"> </span> spaces away from the end.
+          You were <span id="distanceReport"> </span> spaces away from the end. <br/> <br/>
+
+        </p>
+        <p>
+        <span class="newGame clickable"> Try Again </span>
         </p>
     </div>
 
@@ -126,11 +133,11 @@
 
 
 <footer>
-  <div>
+  <span>
     <a href= "http://www.derekshiller.com"> Derek Shiller </a>
-    <a href="http://www.github.com/dcshiller/piper" class="icon fa-github"></a>
-    <a href="http://www.linkedin.com/in/derek-shiller-3a254b121" class="icon fa-linkedin"></a>
-  </div>
+    <a href="http://www.github.com/dcshiller/piper"> <img src="assets/github.png" alt="" /></a>
+    <a href="http://www.linkedin.com/in/derek-shiller-3a254b121"><img src="assets/linkedin.png" alt="LinkedIn" /></a>
+  </span>
 </footer>
   </body>
 </html>
