@@ -4,6 +4,9 @@
   $new_score = isset($_POST['data']['score']) ? $_POST['data']['score'] : null;
   $new_initials = isset($_POST['data']['initials']) ? $_POST['data']['initials'] : null;
 
+  $new_score = substr($new_score,0,3);
+  $new_initials = substr($new_initials,0,3);
+
   $file = "../assets/highscores.txt";
   $lines = file( $file );
   array_shift($lines);
