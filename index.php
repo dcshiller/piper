@@ -29,7 +29,7 @@
         <li id="gameMode">
           <span id="arcadeMode" class="selected">Arcade Mode</span>
           <span id="puzzleMode">Puzzle Mode</span> <br/>
-          <!-- <span id="challengeMode">Challenge Mode</span> -->
+          <span id="challengeMode">Challenge Mode</span>
         </li>
         <li id="instructions">Instructions</li>
         <li id="highScores">High Scores</li>
