@@ -27,7 +27,7 @@
       <ul>
         <li class="newGame">New Game</li>
         <li id="gameMode">
-          <span id="arcadeMode" class="selected">Arcade Mode</span>
+          <span id="arcadeMode" class="selected">Arcade Mode</span> <br/>
           <span id="puzzleMode">Puzzle Mode</span> <br/>
           <span id="challengeMode">Challenge Mode</span>
         </li>
@@ -53,11 +53,11 @@
           Left or up will swing it counter-clockwise. </p>
           <img src="assets/mousemove.png" class="fullWidth" alt="mouseDemonstration" />
           <p>
-          Alternatively, any piece may be rotated clockwise 90 degrees with a single click. </p>
+          Alternatively, any piece may be rotated clockwise 90 degrees with a single left or right. </p>
 
           <p>
-          Additionally, any pipe adjacent to the empty space may be swapped for the empty space with a click.
-          This takes precedence over rotations. Rotations next to the empty space require clicking and dragging.
+          Additionally, any pipe adjacent to the empty space may be swapped for the empty space with a left click.
+          This takes precedence over rotations on the left click. Rotations next to the empty space require clicking and dragging.
           </p>
           <img src="assets/emptyclick.png" class="fullWidth" alt="" />
           <p>
@@ -67,6 +67,7 @@
           <p>  <img src="assets/barriers.png"  class="right" alt="" ;/> When in puzzle mode, the sludge will move slower, so you will have more time to plan your moves. However, you will also have to contend with barriers.
              Barriers cannot be moved, and if the sludge ever meets a barrier, you will lose.</p>
 
+             <p> When in challenge mode, the slude will move slightly slower, but you will have two entry and exit pipes to connect. If you two streams meet each other, you will lose.
         </p>
     </div>
 
